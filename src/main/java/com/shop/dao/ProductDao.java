@@ -13,6 +13,6 @@ public interface ProductDao extends GeneralDao<Product> {
 
     List<Product> liveSearch(String search);
 
-    List<Product> getListPrice(int price);
+    List<Product> getByPrice(int price);
 
 }
