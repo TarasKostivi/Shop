@@ -34,4 +34,7 @@ public class Order {
 
     private List<Product> products;
 
+    public Order(boolean paid) {
+        this.paid = paid;
+    }
 }

@@ -6,6 +6,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
+
 public interface ProductService {
 
     void save(Product product, int categoryId, MultipartFile multipartFile) throws Exception;
@@ -16,7 +17,7 @@ public interface ProductService {
 
     void delete(int id);
 
-    void update(Product id);
+    void update(Product product);
 
     List<Product> getFromCategory(Category category);
 
